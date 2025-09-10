@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Меню</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .special {
+      background-color: #d1ffd1; /* зелений фон для акційних страв */
+      font-weight: bold;
+    }
+    .veg {
+      color: green;
+      font-weight: bold;
+    }
+    .allergens {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Меню</h2>
+
+<table>
+  <tr>
+    <th>Страва</th>
+    <th>Опис</th>
+    <th>Ціна</th>
+    <th>Примітки</th>
+  </tr>
+  <tr class="special">
+    <td> Паста Карбонара (АКЦІЯ)</td>
+    <td>Класична паста з беконом, вершками та пармезаном</td>
+    <td>180₴</td>
+    <td class="allergens">Містить: глютен, молочні продукти</td>
+  </tr>
+  <tr>
+    <td>Салат Цезар</td>
+    <td>Листя салату, курка, соус Цезар, пармезан</td>
+    <td>150₴</td>
+    <td class="allergens">Містить: яйця, молочні продукти</td>
+  </tr>
+  <tr class="special">
+    <td> <span class="veg">Вегетаріанська піца (СПЕЦІАЛЬНА ПРОПОЗИЦІЯ)</span></td>
+    <td>Сир моцарела, томати, базилік</td>
+    <td>200₴</td>
+    <td class="allergens">✅ Вегетаріанська, містить: глютен, молочні</td>
+  </tr>
+  <tr>
+    <td>Борщ український</td>
+    <td>Класичний борщ зі сметаною</td>
+    <td>120₴</td>
+    <td class="allergens">Містить: молочні (сметана), можна без сметани</td>
+  </tr>
+  <tr class="special">
+    <td> Чізкейк дня (АКЦІЯ)</td>
+    <td>Десерт зі свіжих інгредієнтів, смак дня</td>
+    <td>90₴</td>
+    <td class="allergens">Містить: глютен, молочні, яйця</td>
+  </tr>
+</table>
+
+</body>
+</html>
